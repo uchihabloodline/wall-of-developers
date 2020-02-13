@@ -1,0 +1,20 @@
+
+.small-font{
+    font-size: 12px;
+}
+.no-text-decoration:hover{
+    text-decoration: none;
+}
+.black{
+    color: black;
+}
+.grey{
+    color: grey;
+}
+
+@media (prefers-color-scheme: dark) {	
+  body {
+    background-color: black;
+    color: #ccc;
+  }
+}
