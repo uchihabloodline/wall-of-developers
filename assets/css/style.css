@@ -1,3 +1,4 @@
+
 .small-font{
     font-size: 12px;
 }
@@ -9,4 +10,11 @@
 }
 .grey{
     color: grey;
+}
+
+@media (prefers-color-scheme: dark) {	
+  body {
+    background-color: black;
+    color: #ccc;
+  }
 }
